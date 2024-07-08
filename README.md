@@ -56,6 +56,21 @@ To use the form, you could use those services:
 - [https://formsubmit.Co](https://formsubmit.co/)
 - [https://developers.cloudflare.com/workers/](https://developers.cloudflare.com/workers/)
 
+## Content
+
+Important to follow the installation instructions above, consider installing Homebrew package manager.
+
+To edit the main page, go to the index.html file located in the folder called public. There you can modify the main structure of your static website.
+
+To create a new post within the minimal marketing theme, first configure the view of your new post, correctly pointing out the path or url of the destination page that you want to show in the address. The minimal marketing theme is configured to create 3 column post views, if you consider adding a new post view for a new page, it will automatically load in a new row below, creating an order in the code structure.
+
+To create a view of a new post you can follow the same creation pattern as the first, otherwise you can modify and create a new structure to your liking by assigning custom style sheets.
+
+It is important to consider that each post view points to a destination route, this will be the page that is related to that post. Each page of posts is created independently, each in a folder to generate order in the structure and make a page with unique content for each new page. Just create a new folder, create a new index.html file and start working on your new page. By containing the name of index.html, it will default to the file as the main file, if you need to create another name, it has to be specified in the post path as detailed in the comments within the code.
+
+Everything is customizable and the styles are tailored to the needs of each project.
+
+Thank you.
 
 ## Credits
 4044ever - Original Theme
